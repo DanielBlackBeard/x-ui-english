@@ -42,7 +42,7 @@ jobs:
           mv xui-release x-ui
           mkdir bin
           cd bin
-          wget https://github.com/NidukaAkalanka/Xray-core/releases/latest/download/Xray-linux-amd64.zip
+          wget https://github.com/XTLS/Xray-core/releases/download/v1.7.5/Xray-linux-64.zip
           unzip Xray-linux-amd64.zip
           rm -f Xray-linux-amd64.zip
           mv xray xray-linux-amd64
