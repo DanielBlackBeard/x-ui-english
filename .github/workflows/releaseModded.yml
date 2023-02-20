@@ -43,8 +43,8 @@ jobs:
           mkdir bin
           cd bin
           wget https://github.com/XTLS/Xray-core/releases/download/v1.7.5/Xray-linux-64.zip
-          unzip Xray-linux-amd64.zip
-          rm -f Xray-linux-amd64.zip
+          unzip Xray-linux-64.zip
+          rm -f Xray-linux-64.zip
           mv xray xray-linux-amd64
           rm -f geoip.dat geosite.dat
           wget https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat
